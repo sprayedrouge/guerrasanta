@@ -1,0 +1,225 @@
+:root {
+    --white:whitesmoke; 
+    --red: #a22921; 
+    --black: #141414; 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--black);
+    font-family: "Instrument Serif";
+    padding-top: 160px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.shapka__list-text {
+    color: white;
+}
+
+.shapka {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;      
+    z-index: 102;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #141414;
+}
+
+.navigation {
+    padding: 40px 0;
+}
+
+.shapka__logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.shapka__list {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+
+.shapka__list-text {
+    letter-spacing: 2px;
+    padding-inline: 4px;
+    transition: all 0.3s;
+}
+
+
+.shapka__logo-background {
+    display: flex;
+    justify-content: center;
+}
+
+.shapka__list-text:hover {
+    border-bottom: 2px solid rgb(172, 1, 1);
+    padding-bottom: 5px;
+}
+
+.hero {
+    width: 1250px;
+    margin: 50px auto;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+    scroll-margin-top: 300px;
+}
+
+.hero__contanier {
+    position: relative;
+    width: 100%;
+}
+
+.hero__buttons {
+    margin-top: 60px;   
+    display: flex;
+    justify-content: center;
+}
+
+.hero__image {
+    position: absolute;
+    top: -155px;
+    right: 220px;
+    width: 800px;
+    height: 1000px;
+    opacity: 50%;
+    z-index: 1;             
+    pointer-events: none
+}
+
+.hero__text {
+    color: var(--white);
+    font-size: 50px;
+    letter-spacing: 7px;
+    line-height: 100px;
+    
+}
+
+.hero__desc {
+    opacity: 50%;
+}
+
+.hero__scroll {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #a22921;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 340px;
+}
+
+.about {
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 106px ;
+}
+
+.about__text {
+    width: 932px;
+    font-size: 30px;
+    color: white;
+}
+
+.about__pic-mozg {
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__scroll {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #a22921;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.about__pic {
+    opacity: 50%;
+}
+
+.about__section {
+    margin-bottom: 40px;
+    scroll-margin-top: 200px;
+}
+
+
+.contact__content {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.contact__container {
+    display: flex;
+}
+
+.contact__buttons {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact__social-media {
+    color: var(--red);
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    font-size: 30px;
+}
+
+.instagram {
+    margin-bottom: 45px;
+}
+
+.contact__pic {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 50%;
+    margin-top: -40px;
+}
